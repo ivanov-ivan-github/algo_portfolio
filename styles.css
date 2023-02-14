@@ -1,0 +1,90 @@
+section, header, footer, aside, nav, article{
+  display: block;
+}
+
+#body {
+  background-color: #000; 
+}
+
+#ex_header, #ex_navbar, #ex_middle, #ex_footer {
+  background-color: #000; 
+  color: #fff; 
+  clear: both;
+  margin: 0 auto;
+  width: 100%;
+}
+
+
+#module {
+  color:#0096FF;
+  font-size: 20px;
+}
+
+#nname {
+  color:#82D2FF;
+  font-size: 20px;
+}
+
+#pplain {
+  color:#FFFFFF;
+  font-size: 20px;
+}
+
+#ex_header h1 {
+  margin: 0 0 0 10px; 
+}
+  
+#ex_navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  display: block;
+  background-color: #000;
+  float: left; 
+}
+
+#ex_navbar ul li {
+  float: left;
+  margin: 0 10px 0 0;
+  padding: 0 10px; 
+}
+
+#ex_navbar ul li a {
+  text-decoration: none;
+  color: #fff; 
+}
+      
+#ex_navbar ul li a:hover {
+  color: #ffc; 
+}
+        
+#ex_middle {
+  background-color: #000; 
+}
+
+#ex_middle2 {
+  color: #fff; 
+  background-color: #111; 
+}
+  
+#ex_sidebar {
+  background-color: #000;
+  color: #fff; 
+  float: left;
+  width: 48%;
+}
+
+#ex_sidebar h2 {
+  margin: 0 0 0 10px; 
+}
+    
+#ex_main {
+  background-color: #000; 
+  color: #fff; 
+  float: left;
+  padding-left: 20px;
+  width: 48%;
+}
+
+.clear {clear: both;}
