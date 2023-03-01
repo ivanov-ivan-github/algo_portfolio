@@ -2,6 +2,59 @@ section, header, footer, aside, nav, article{
   display: block;
 }
 
+a:link {
+  color: #00FFFF;
+}
+/* visited link */
+a:visited {
+  color: #007D7D;
+}
+/* mouse over link */
+a:hover {
+  color: #8ebf42;
+}
+/* selected link */
+a:active {
+  color: #800000;
+}
+
+.box{
+    display: none;
+    width: 100%;
+}
+
+a:hover + .box,.box:hover{
+    display: block;
+    position: relative;
+    z-index: 100;
+}
+
+
+table {
+  border: 1px inset #4B4B4B;
+  border-collapse: collapse;
+}
+
+th {
+  border: 1px inset #4B4B4B;
+  color: #82D2FF;
+  padding: 1px 5px;
+}
+
+tr {
+  border: 1px inset #4B4B4B;
+  border-collapse: collapse;
+  padding: 1px 5px;
+}
+
+td {
+  border-style: solid;
+  border-width: 0 1px 1px 0;
+  border-color: #4B4B4B;
+  padding: 1px 5px;
+}
+
+
 #body {
   background-color: #000; 
 }
